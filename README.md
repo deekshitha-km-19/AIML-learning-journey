@@ -1,5 +1,5 @@
 # AIML-Learning-Journey 🚀
-Hi! I'm Deekshitha - Aspiring AIML Engineer from Mysore!
+Hi! I'm Deekshitha - Aspiring AIML Engineer from mandya!
 
 ### My Goal: AIML Job in Bangalore in 1.5 year
 
