@@ -1,16 +1,12 @@
-# AIML-Learning-Journey 🚀
-Hi! I'm Deekshitha - Aspiring AIML Engineer from mandya!
+# Student System - Repositioned for AIML Intern
 
-### My Goal: AIML Job in Bangalore in 1.5 year
+Target Role: AIML Intern
 
-## Day 2 - House Price Prediction
-- Built Linear Regression model using Python
-- Dataset: House prices
-- Learned: train_test_split, sklearn
+What I Built: Student Management System using Python dictionary with Add, View, Search, Delete.
 
-## Day 3 - Data Cleaning with Pandas  
-- Handled missing values
-- Removed duplicates
-- Used Google Colab
+Why it fits AIML:
+- Used dictionary for structured data handling like data preprocessing
+- Built CRUD logic with error handling
+- Code is on GitHub with proper commits
 
-Tech: Python | Pandas | NumPy | Scikit-Learn
+Skill Gap: Need to learn Pandas and NumPy next.
