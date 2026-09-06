@@ -14,3 +14,13 @@ print(small_houses)
 blr = df[df['Location'] == 'Bangalore']
 print("\nOnly Bangalore:")
 print(blr)
+
+expensive_blr = df[(df['Price'] > 5000000) & (df['Location'] == 'Bangalore')]
+print("\nExpensive Bangalore (>50L):")
+print(expensive_blr)
+
+chennai_or_small = df[(df['Location'] == 'Chennai') | (df['Area'] < 1000)]
+print("\nChennai OR Small:")
+print(chennai_or_small)
+
+print(f"\nTotal Bangalore houses: {len(blr)}")
