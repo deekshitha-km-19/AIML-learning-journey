@@ -1,4 +1,4 @@
-# Deekshitha KM - Katteri, Mandya - Day 4
+
 name = "Deekshitha"
 place = "Katteri, Pandavapura, Mandya"
 goal = "AIML Engineer in Bangalore"
