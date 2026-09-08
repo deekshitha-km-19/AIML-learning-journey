@@ -10,3 +10,4 @@ Why it fits AIML:
 - Code is on GitHub with proper commits
 
 Skill Gap: Need to learn Pandas and NumPy next.
+Day 15 - Sorting & 5 Visualizations Done
