@@ -1,13 +1,16 @@
-# Student System - Repositioned for AIML Intern
+# Hi I'm Deekshitha KM | AI/ML Learner | Bangalore 🚀
 
-Target Role: AIML Intern
+🔥 17/100 Days of AI/ML - Consistent
+🐍 Python | Pandas | Scikit-learn | NumPy | Matplotlib
+🏠 Day 17: Built Real Estate Price Predictor - R2 0.99 (99% Accuracy)
+📈 Daily GitHub Streak - AIML-learning-journey
 
-What I Built: Student Management System using Python dictionary with Add, View, Search, Delete.
+## Day 17 Highlights
+- Dataset: 50 Houses - Bangalore, Mysore, Mandya
+- Prediction: 3BHK 1400sqft = 70.01 Lakhs
+- Model: Linear Regression
 
-Why it fits AIML:
-- Used dictionary for structured data handling like data preprocessing
-- Built CRUD logic with error handling
-- Code is on GitHub with proper commits
+## GitHub
+github.com/deekshitha-km-19/AIML-learning-journey
 
-Skill Gap: Need to learn Pandas and NumPy next.
-Day 15 - Sorting & 5 Visualizations Done
+#100DaysOfML #WomenInTech
