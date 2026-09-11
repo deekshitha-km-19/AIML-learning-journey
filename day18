@@ -1,0 +1,23 @@
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+
+data = {
+    'Location': ['Bangalore', 'Bangalore', 'Mysore', 'Mysore', 'Mandya', 'Mandya'],
+    'Sqft': [1000, 1400, 1000, 1400, 1000, 1400],
+    'Price': [55, 78, 28, 40, 18, 25]
+}
+
+df = pd.DataFrame(data)
+
+df_encoded = pd.get_dummies(df, columns=['Location'])
+print(df_encoded)
+
+X = df_encoded.drop('Price', axis=1)
+y = df_encoded['Price']
+model = LinearRegression()
+model.fit(X, y)
+
+print("\n--- Predictions ---")
+print(f"Bangalore 1400 sqft = {model.predict([[1400, 1, 0, 0]])[0]:.1f}L")
+print(f"Mysore 1400 sqft = {model.predict([[1400, 0, 0, 1]])[0]:.1f}L")
+print(f"Mandya 1400 sqft = {model.predict([[1400, 0, 1, 0]])[0]:.1f}L")
