@@ -2,7 +2,7 @@
 
 **Live Demo:** https://house-price-dkm19.streamlit.app
 **GitHub:** github.com/deekshitha-km-19/AIML-learning-journey
-**By:** Deekshitha D | 2nd Year CSE, CIT Mandya | Day 19 of #100DaysOfAIML
+**By:** Deekshitha K M| 2nd Year CSE, CIT Mandya | 
 
 ### 🚀 Industry Problem Solved
 Predict accurate house prices for Mandya, Mysore, Bangalore for ANY size (500 - 10000 sqft) - Helps buyers avoid overpaying.
@@ -20,8 +20,5 @@ Python | Pandas | Scikit-Learn | Streamlit | GitHub
 1. Select Location: Mandya / Mysore / Bangalore
 2. Enter Size: Ex - 1400 sqft
 3. Get Price: 70.01 Lakhs in 1 sec
-
-### 📈 My Learning Journey - Day 7 to Day 19
-Day 7: EDA | Day 8: Seaborn Visuals | Day 9: 1000 Rows Big Data | Day 12: Pandas | Day 19: Deployment
 
 #100DaysOfML #WomenInTech #MachineLearning #Python
