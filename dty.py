@@ -1,13 +1,9 @@
-ge = 20
+
+age = 20
 marks = 85
-
 print(age)
-print(type(age))
-height = 5.8
-price = 99.50
 
-print(height)
-print(type(height))
+print(type(marks))
 name = "Deekshitha"
 college = "Engineering College"
 
@@ -17,10 +13,8 @@ is_student = True
 is_working = False
 
 print(is_student)
-print(type(is_student))marks = [80, 75, 90, 85]
 
 print(marks)
-print(marks[0])
 coordinates = (10, 20)
 
 print(coordinates)
@@ -33,9 +27,6 @@ student = {
     "age": 20,
     "course": "CSE"
 }
-
-print(student["name"])
-print(student["course"])
 name = "Deekshitha"
 age = 20
 percentage = 85.5
