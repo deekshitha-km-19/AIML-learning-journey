@@ -1,46 +1,33 @@
+for i in range(5):
+    print(i)
 
-age = 20
-marks = 85
-print(age)
+    fruits = ["apple", "banana", "mango"]
 
-print(type(marks))
-name = "Deekshitha"
-college = "Engineering College"
+print(fruits[0])  
+print(fruits[1])  
+print(fruits[2])  
 
-print(name)
-print(type(name))
-is_student = True
-is_working = False
+fruits = ["apple", "banana", "mango"]
 
-print(is_student)
+fruits[1] = "orange"
 
-print(marks)
-coordinates = (10, 20)
+print(fruits)
+fruits = ["apple", "banana"]
 
-print(coordinates)
-print(coordinates[0])
-numbers = {10, 20, 30, 10}
+fruits.append("mango")
 
-print(numbers)
-student = {
-    "name": "Deekshitha",
-    "age": 20,
-    "course": "CSE"
-}
-name = "Deekshitha"
-age = 20
-percentage = 85.5
-is_student = True
-subjects = ["Python", "Maths", "DBMS"]
+print(fruits)
+def greet():
+    print("Hello!")
+    
+greet()
+def greet(name):
+    print("Hello", name)
 
-print(name)
-print(age)
-print(percentage)
-print(is_student)
-print(subjects)
+greet("Deekshitha")
+greet("Rahul")
+def greet(name):
+    print("Hello", name)
 
-print(type(name))
-print(type(age))
-print(type(percentage))
-print(type(is_student))
-print(type(subjects))
+greet("Deekshitha")
+greet("Rahul")
