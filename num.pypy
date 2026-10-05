@@ -1,0 +1,74 @@
+import numpy as np
+
+# Student marks
+marks = np.array([
+    [80, 75, 90],
+    [65, 70, 60],
+    [90, 95, 85],
+    [55, 60, 50],
+    [75, 80, 70]
+])
+
+print("Student Marks:")
+print(marks)
+
+# Number of students
+print("\nNumber of students:", marks.shape[0])
+
+# Number of subjects
+print("Number of subjects:", marks.shape[1])
+
+# Total marks of each student
+total = np.sum(marks, axis=1)
+print("\nTotal marks:")
+print(total)
+
+# Average marks of each student
+average = np.mean(marks, axis=1)
+print("\nAverage marks:")
+print(average)
+
+# Highest marks in each subject
+highest = np.max(marks, axis=0)
+print("\nHighest marks in each subject:")
+print(highest)
+
+# Lowest marks in each subject
+lowest = np.min(marks, axis=0)
+print("\nLowest marks in each subject:")
+print(lowest)
+
+# Overall highest mark
+print("\nOverall highest mark:", np.max(marks))
+
+# Overall lowest mark
+print("Overall lowest mark:", np.min(marks))
+
+# Overall average
+print("Overall average:", np.mean(marks))
+
+# Students whose average is above 75
+print("\nStudents with average above 75:")
+
+for i in range(len(average)):
+    if average[i] > 75:
+        print("Student", i + 1, ":", average[i])
+
+# Maximum total
+best_student = np.argmax(total)
+
+print("\nBest student:")
+print("Student", best_student + 1)
+print("Total marks:", total[best_student])
+print("Average:", average[best_student])
+
+# Reshape example
+numbers = np.arange(1, 13)
+
+print("\nOriginal array:")
+print(numbers)
+
+new_array = numbers.reshape(3, 4)
+
+print("\nReshaped array:")
+print(new_array)
