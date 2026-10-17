@@ -1,0 +1,11 @@
+str=input("enter a one sentance: ")
+print(len(str))
+print(str.upper())
+print(str.lower())
+
+str1=input("enter a sentance: ")
+print(len(str1))
+print(str1.upper())
+print(str1.lower())
+print(str1[1])
+print(str1[-1])
