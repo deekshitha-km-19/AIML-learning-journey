@@ -12,6 +12,7 @@ foodlist=[food1,food2,food3]
 print(len(foodlist))
 print(foodlist)
 foodlist[1]="food1"
+print(foodlist)
 
 marks=[67,56,78,90,56]
 print(marks[1:4])
