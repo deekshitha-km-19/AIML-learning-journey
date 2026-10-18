@@ -1,0 +1,5 @@
+movie1=input("enter movie1:")
+movie2=input("enter movie2:")
+movie3=input("enter movie3:")
+movielist=(movie1,movie2,movie3)
+print(len(movielist))
