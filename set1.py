@@ -1,0 +1,21 @@
+language={"python","java","c++","python","c","html","java"}
+print(type(language))
+print(language)
+emptyset=set()
+nums={1,2,3,4,5,6,7,2,4,3,5,2}
+print(emptyset)
+print(nums)
+nums.add(9)
+nums.remove(2)
+print(nums)
+print(type(nums))
+print(nums.add(8))
+print(language.add("CSS"))
+print(nums.clear())
+print(language.pop())
+print(language.union({2,4}))
+
+languageset=set(language)
+print(type(languageset))
+print("deeksha knows these many language=",len(languageset))
+print(languageset)
