@@ -1,0 +1,41 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a >= b and a >= c:
+    print("Largest:", a)
+elif b >= a and b >= c:
+    print("Largest:", b)
+else:
+    print("Largest:", c)
+
+    n = int(input("Enter n: "))
+total = 0
+
+for i in range(1, n + 1):
+    total += i
+
+print("Sum:", total)
+
+
+numbers = [10, 20, 30, 40, 50]
+
+print("Sum:", sum(numbers))
+print("Average:", sum(numbers) / len(numbers))
+print("Largest:", max(numbers))
+print("Smallest:", min(numbers))
+
+numbers = [10, 20, 30, 40, 50]
+
+for num in numbers:
+    print(num)
+
+
+    numbers = [10, 20, 30, 40, 50]
+
+total = 0
+
+for num in numbers:
+    total = total + num
+
+print("Total:", total)
