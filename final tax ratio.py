@@ -5,3 +5,4 @@ elif salary is 30000-70000:
 	print("15% tax")
 elif salary > 700000:
 	print("25% tax")
+	
